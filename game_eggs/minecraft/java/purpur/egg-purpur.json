@@ -8,9 +8,7 @@
     "name": "Purpur",
     "author": "purpur@birdflop.com",
     "description": "Fork of Paper and Tuinity providing new configuration options.",
-    "features": [
-        "eula"
-    ],
+    "features": [],
     "images": [
         "ghcr.io\/pterodactyl\/yolks:java_16",
         "ghcr.io\/pterodactyl\/yolks:java_11",
