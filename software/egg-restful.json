@@ -5,7 +5,7 @@
         "update_url": null
     },
     "exported_at": "2021-03-26T17:25:19-04:00",
-    "name": "haste-server",
+    "name": "restful-server",
     "author": "mommde@pm.me",
     "description": "REST api for Tenebris",
     "features": null,
@@ -14,7 +14,7 @@
     ],
     "startup": "nano .env\r\n./gradlew build\r\ndocker-compose up",
     "config": {
-        "files": "",
+        "files": "{}",
         "startup": "{\r\n    \"done\": \"listening on\"\r\n}",
         "logs": "{}",
         "stop": "^C"
