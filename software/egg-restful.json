@@ -1,0 +1,30 @@
+{
+    "_comment": "DO NOT EDIT: FILE GENERATED AUTOMATICALLY BY PTERODACTYL PANEL - PTERODACTYL.IO",
+    "meta": {
+        "version": "PTDL_v1",
+        "update_url": null
+    },
+    "exported_at": "2021-03-26T17:25:19-04:00",
+    "name": "haste-server",
+    "author": "mommde@pm.me",
+    "description": "REST api for Tenebris",
+    "features": null,
+    "images": [
+        "ghcr.io/tenebrisclub/restful/restful:b75a7ebec7a05dd4e57200d25cd97cdf1df7b37c"
+    ],
+    "startup": "nano .env\r\n./gradlew build\r\ndocker-compose up",
+    "config": {
+        "files": "",
+        "startup": "{\r\n    \"done\": \"listening on\"\r\n}",
+        "logs": "{}",
+        "stop": "^C"
+    },
+    "scripts": {
+        "installation": {
+            "script": "",
+            "container": "",
+            "entrypoint": "bash"
+        }
+    },
+    "variables": []
+}
