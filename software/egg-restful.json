@@ -12,10 +12,10 @@
     "images": [
         "ghcr.io/tenebrisclub/restful/restful:b75a7ebec7a05dd4e57200d25cd97cdf1df7b37c"
     ],
-    "startup": "nano .env\r\n./gradlew build\r\ndocker-compose up",
+    "startup": "{\r\n    \"done\": \"\"\r\n}",
     "config": {
         "files": "{}",
-        "startup": "{\r\n    \"done\": \"listening on\"\r\n}",
+        "startup": "{\r\n    \"done\": \"Responding at http\"\r\n}",
         "logs": "{}",
         "stop": "^C"
     },
